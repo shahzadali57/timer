@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(24, 24, 26);
+    color: white;
+}
+h2{
+    color : rgb(240, 30, 11);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 , h4{
+    color: blanchedalmond;
+}
+.time-input input{
+    width: 50px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.time-input input:focus{
+   border: none;
+}
+.hide-input{
+    display: none;
+}
+.output{
+    display: flex;
+    flex-direction: row !important; 
+}
+.show-text{
+    display: initial;
+}
+
+button{
+    border: 1px solid rgb(202, 20, 20);
+    width: 70px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(240, 30, 11);
+    color: white !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+button:hover{
+    background-color: rgb(133, 199, 196);
+    color: black !important;
+}
+/* Created by Qambar Ali */
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.time-input h3 , .time-input h4{
+    text-align: center;
+}
